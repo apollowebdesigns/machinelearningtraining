@@ -20,7 +20,7 @@ clf = tree.DecisionTreeClassifier()
 clf = clf.fit(features, labels)
 
 def predicter(inputData):
-    if clf.predict([inputData]) == 0:
+    if clf.predict([inputData]) == apple:
         return 'apple'
     else:
         return 'orange'
